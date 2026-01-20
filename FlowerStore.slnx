@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FlowerApi/FlowerApi.csproj" />
+  <Project Path="FlowerUI/FlowerUI.csproj" />
+</Solution>

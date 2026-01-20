@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Roses",
+    "type": "Perennial",
+    "description": "Classic flowers symbolizing love and romance",
+    "imageUrl": "images/rose-1732782_640.jpg",
+    "price": 9.99
+  },
+  {
+    "id": 2,
+    "name": "Tulips",
+    "type": "Annuals",
+    "description": "Spring-blooming flowers known for their vibrant colors",
+    "imageUrl": "/images/tulip-3360748_640.jpg",
+    "price": 7.99
+  },
+  {
+    "id": 3,
+    "name": "Lilies",
+    "type": "Perennial",
+    "description": "Elegant flowers associated with purity and renewal",
+    "imageUrl": "/images/flower-729514_640.jpg",
+    "price": 8.99
+  },
+  {
+    "id": 4,
+    "name": "Orchids",
+    "type": "Bieenials",
+    "description": "Exotic flowers symbolizing beauty and strength",
+    "imageUrl": "/images/alexandra-nosova-kly-z2c54b0-unsplash.jpg",
+    "price": 12.99
+  }
+]

@@ -1,0 +1,33 @@
+﻿@page "/"
+@using FlowerUI.Models
+@inject HttpClient Http
+
+<PageTitle>Flowers</PageTitle>
+
+<h1>All Flowers</h1>
+@if (flowers == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @foreach (var flower in flowers)
+    {
+        <div class="flower-item">
+            <h3>@flower.Name</h3>
+            <p>@flower.Description</p>
+            <img src="@flower.ImageUrl" alt="@flower.Name" width="500" hight="500"/>
+        </div>
+    }
+}
+
+@code {
+    // Future code will go here
+    private List<FlowerModel>? flowers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Initialization logic will go here
+        flowers = await Http.GetFromJsonAsync<List<FlowerModel>>("https://localhost:7044/flowers");
+    }
+}
