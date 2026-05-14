@@ -8,5 +8,3 @@
 6. The web api is documented with scalar 
 7. The web api mimics health check
 8. The web api mimics server slowness
-9. Test Azure function. See Live Stream from Azure function.
-10. Test Azure function. Set log level in host.json. Remove Execulde request.
