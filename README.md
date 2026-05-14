@@ -9,4 +9,4 @@
 7. The web api mimics health check
 8. The web api mimics server slowness
 9. Test Azure function. See Live Stream from Azure function.
-10. Test Azure function for different log level.
+10. Test Azure function for different log level. Log warning requestbody.
