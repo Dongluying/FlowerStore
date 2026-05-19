@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="FlowerApi/FlowerApi.csproj" />
+  <Project Path="FlowerBlazorServerUI/FlowerBlazorServerUI.csproj" Id="78f6b1ce-552e-41d8-ac7e-7ce92adc727d" />
   <Project Path="FlowerUI/FlowerUI.csproj" />
 </Solution>
